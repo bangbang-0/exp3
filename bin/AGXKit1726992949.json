@@ -1,0 +1,8 @@
+{
+  "AI": 32,
+  "CUDA": 512,
+  "memory": 32,
+  "model": "AGX Xavier",
+  "storage": 32,
+  "tensorCore": 64
+}

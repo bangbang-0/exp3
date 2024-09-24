@@ -1,0 +1,28 @@
+{
+  "driveMode": "四轮四驱",
+  "id": "dp00000000",
+  "maxTravel": 10,
+  "minGroundClearance": 115,
+  "minTurningRadius": 0,
+  "model": "SCOUT MINI",
+  "tire": [
+    {
+      "model": "公路轮、麦克纳姆轮",
+      "size": 175
+    },
+    {
+      "model": "公路轮、麦克纳姆轮",
+      "size": 175
+    },
+    {
+      "model": "公路轮、麦克纳姆轮",
+      "size": 175
+    },
+    {
+      "model": "公路轮、麦克纳姆轮",
+      "size": 175
+    }
+  ],
+  "wheelBase": 451,
+  "wheelTrack": 490
+}

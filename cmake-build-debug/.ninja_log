@@ -1,0 +1,16 @@
+# ninja log v6
+51	4792	7488886882063803	CMakeFiles/exp3.dir/src/Student.cpp.obj	58a189e4e4eea97
+16	4369	7488897346797501	CMakeFiles/exp3.dir/src/SongLingCar.cpp.obj	70840bbf127a5e91
+360	4802	7488886885164150	CMakeFiles/exp3.dir/src/car_parts/NineAxisGyroscope.cpp.obj	61e50611470cea9c
+177	4800	7488886883331990	CMakeFiles/exp3.dir/src/car_parts/BatteryModule.cpp.obj	8685140822d28fa
+93	4803	7488886882483222	CMakeFiles/exp3.dir/src/car_parts/AGXKit.cpp.obj	6dcbd2b7d0272c4a
+60	3300	7488895121676391	CMakeFiles/exp3.dir/src/relational.cpp.obj	22a16325dbb906ca
+263	4804	7488886884191807	CMakeFiles/exp3.dir/src/car_parts/LCD.cpp.obj	c7183cfb43c807bd
+218	5289	7488886883743042	CMakeFiles/exp3.dir/src/car_parts/BinocularCamera.cpp.obj	4e5235f14df760b9
+134	5307	7488886882904320	CMakeFiles/exp3.dir/src/car_parts/BasePlate.cpp.obj	8a661a6fdb8f5539
+407	5312	7488886885631098	CMakeFiles/exp3.dir/src/car_parts/Tire.cpp.obj	ca007ed494ce9c14
+312	5313	7488886884673147	CMakeFiles/exp3.dir/src/car_parts/MultiLineLidar.cpp.obj	d4c46faffc1a9a45
+9	4842	7488887938449306	CMakeFiles/exp3.dir/src/main.cpp.obj	9147225e68a82dfe
+2533	5581	7488901962765758	C:/Users/29789/Desktop/smart_car/homework/exp3/bin/exp3.exe	2a3538ed67cd034d
+14	2532	7488901937579058	CMakeFiles/exp3.dir/main.cpp.obj	978e710e8d67cd4f
+3	850	7488904265575584	build.ninja	4ea887ae54cb5b41
