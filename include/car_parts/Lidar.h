@@ -15,7 +15,7 @@
 using namespace std;
 using json = nlohmann::json;
 
-class MultiLineLidar : public Subject {
+class Lidar : public Subject {
 private:
     string model;
     int channel;
@@ -27,11 +27,11 @@ private:
     // 目标对象状态.(障碍物状态,1代表前方障碍，2代表左前方障碍，3代表右前方障碍)
     int subjectState;
 public:
-    MultiLineLidar();
+    Lidar();
 
-    MultiLineLidar(string model, int channel, int testRange, int powerConsumption);
+    Lidar(string model, int channel, int testRange, int powerConsumption);
 
-    ~MultiLineLidar();
+    ~Lidar();
 
     void setmodel(string model);
 
@@ -51,9 +51,9 @@ public:
 
     void print();
 
-    friend ostream &operator<<(ostream &out, const MultiLineLidar &multiLineLidar);
+    friend ostream &operator<<(ostream &out, const Lidar &multiLineLidar);
 
-    friend istream &operator>>(istream &in, MultiLineLidar &multiLineLidar);
+    friend istream &operator>>(istream &in, Lidar &multiLineLidar);
 
     void save();
 

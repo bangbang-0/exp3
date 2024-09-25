@@ -12,15 +12,15 @@
 using namespace std;
 using json = nlohmann::json;
 
-class NineAxisGyroscope {
+class Gyroscope {
 private:
     string model;
     string manufacturer;
 
 public:
-    NineAxisGyroscope();
-    NineAxisGyroscope(string model, string manufacturer);
-    ~NineAxisGyroscope();
+    Gyroscope();
+    Gyroscope(string model, string manufacturer);
+    ~Gyroscope();
 
     void setmodel(string model);
     string getmodel();
@@ -28,8 +28,8 @@ public:
     string getmanufacturer();
 
     void print();
-    friend ostream &operator<<(ostream &out, const NineAxisGyroscope &nineAxisGyroscope);
-    friend istream &operator>>(istream &in, NineAxisGyroscope &nineAxisGyroscope);
+    friend ostream &operator<<(ostream &out, const Gyroscope &nineAxisGyroscope);
+    friend istream &operator>>(istream &in, Gyroscope &nineAxisGyroscope);
 
     void save();
     json toJson();
